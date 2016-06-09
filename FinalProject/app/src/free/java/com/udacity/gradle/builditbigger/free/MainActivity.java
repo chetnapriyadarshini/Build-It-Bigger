@@ -1,10 +1,11 @@
-package com.udacity.gradle.builditbigger;
+package com.udacity.gradle.builditbigger.free;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.udacity.gradle.builditbigger.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
     /*public void tellJoke(View view){
         EndpointsAsyncTask asyncTask = new EndpointsAsyncTask();
         asyncTask.execute(MainActivity.this);
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(getResources().getString(R.string.banner_ad_unit_id));
+
       //  Toast.makeText(this, SupplyJokes.getJoke(), Toast.LENGTH_SHORT).show();
     }*/
 
