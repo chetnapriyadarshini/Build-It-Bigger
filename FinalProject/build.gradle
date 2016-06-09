@@ -16,3 +16,12 @@ allprojects {
         jcenter()
     }
 }
+
+task runAppEngine(){
+    doLast {
+        ":backend:appengineRun"
+        ":backend:test"
+        ":app:connectedAndroidTest"
+        ":backend:appengineStop"
+    }
+}

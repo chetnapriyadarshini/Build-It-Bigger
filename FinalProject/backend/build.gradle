@@ -40,13 +40,6 @@ appengine {
   }
 }
 
-task runAppEngine(){
-    doLast {
-        ":appengineRun"
-        ":test"
-        ":app:connectedAndroidTest"
-        ":appengineStop"
-    }
-}
+
 
 
