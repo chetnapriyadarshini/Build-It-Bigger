@@ -1,12 +1,8 @@
-# ud867: Gradle for Android and Java
+# Build-It-Bigger
 
-Welcome to the demos and exercises accompanying ud867 at Udacity!
+A joke telling app created with a Google Cloud Endpoints Server connected to a library which supplies the jokes, the app can be build in two flavors - free and paid. The free flavor has integrated AdMob banner and interstitial ads.
 
-Each directory contains a README.md or solution.gradle that will explain either
-the concept being explored or the exercise at hand. For each exercise, hints
-and a solution.gradle file are also provided.
+##Usage
+`git clone https://github.com/chetnapriyadarshini/Build-It-Bigger`
 
-This course is specifically concerned with the app build process, not writing
-apps in the first place. If you're just starting out on your Android journey,
-you might want to take Udacity's [Developing Android
-Apps](https://www.udacity.com/course/ud853) course.
+This app can be used to learn how to set up GCE in a project, setting up gradle tasks, developing free and paid flavors and integrating ads in an app.
